@@ -7,8 +7,8 @@ SITE_DIR = "site"
 PAGES_DIR = os.path.join(SITE_DIR, "pages")
 
 # Page template
-def make_page(svg_path, page_id, nav_links, title="OBJCLT101"):
-    """Generate an HTML page with SVG embed and nav overlay."""
+def make_page(img_path, page_id, nav_links, title="OBJCLT101"):
+    """Generate an HTML page with WebP image and nav overlay."""
     nav_html = ""
     for link in nav_links:
         cls = f'nav-link {link["class"]}'
@@ -27,7 +27,7 @@ def make_page(svg_path, page_id, nav_links, title="OBJCLT101"):
 </head>
 <body>
   <section id="{page_id}" class="page">
-    <object data="../{svg_path}" type="image/svg+xml" class="page-svg"></object>
+    <img src="../{img_path}" class="page-img" alt="Page">
     <div class="nav-overlay">
 {nav_html}    </div>
   </section>
@@ -258,14 +258,14 @@ tmln_pages[21] = {
 os.makedirs(PAGES_DIR, exist_ok=True)
 
 for num, page in obj_pages.items():
-    html = make_page(f"svg/obj/page-{num}.svg", page["id"], page["nav"], page["title"])
+    html = make_page(f"webp/obj/page-{num}.webp", page["id"], page["nav"], page["title"])
     filepath = os.path.join(PAGES_DIR, f"obj-{num}.html")
     with open(filepath, "w") as f:
         f.write(html)
     print(f"Generated {filepath}")
 
 for num, page in tmln_pages.items():
-    html = make_page(f"svg/tmln/page-{num}.svg", page["id"], page["nav"], page["title"])
+    html = make_page(f"webp/tmln/page-{num}.webp", page["id"], page["nav"], page["title"])
     filepath = os.path.join(PAGES_DIR, f"tmln-{num}.html")
     with open(filepath, "w") as f:
         f.write(html)
