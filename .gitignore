@@ -1,3 +1,5 @@
 *.ai
 .vercel
 .env*.local
+exports/
+screenshots/

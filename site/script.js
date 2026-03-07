@@ -1,4 +1,4 @@
-// Navigate via anchor links
+// Navigate via anchor links — smooth scroll to target section
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault();
@@ -9,29 +9,13 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   });
 });
 
-// Prevent free scrolling — only allow navigation via links
-let isNavigating = false;
-document.addEventListener('wheel', e => {
-  if (!isNavigating) {
+// Block free scrolling — navigation only via links
+document.addEventListener('wheel', e => e.preventDefault(), { passive: false });
+document.addEventListener('touchmove', e => e.preventDefault(), { passive: false });
+
+// Allow keyboard navigation (arrow keys, page up/down disabled)
+document.addEventListener('keydown', e => {
+  if (['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Space'].includes(e.code)) {
     e.preventDefault();
   }
-}, { passive: false });
-
-// Parallax-like subtle movement for background figurines on mousemove
-const bgFigs = document.querySelectorAll('.bg-fig');
-const exhibition = document.querySelector('.section-exhibition');
-
-if (exhibition) {
-  exhibition.addEventListener('mousemove', e => {
-    const rect = exhibition.getBoundingClientRect();
-    const x = (e.clientX - rect.left) / rect.width - 0.5;
-    const y = (e.clientY - rect.top) / rect.height - 0.5;
-
-    bgFigs.forEach((fig, i) => {
-      const depth = 0.5 + (i % 3) * 0.3;
-      const moveX = x * 15 * depth;
-      const moveY = y * 10 * depth;
-      fig.style.transform = `translate(${moveX}px, ${moveY}px)`;
-    });
-  });
-}
+});

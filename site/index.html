@@ -8,260 +8,43 @@
 </head>
 <body>
 
-  <!-- SECTION 1: Exhibition Hall -->
-  <section id="exhibition" class="section section-exhibition">
-    <header class="site-header">
-      <h1 class="logo">OBJCLT101</h1>
-    </header>
-
-    <div class="exhibition-room">
-      <!-- Far left alcove (perspective) -->
-      <div class="alcove alcove-far-left">
-        <div class="alcove-arch"></div>
-      </div>
-
-      <!-- Left alcove -->
-      <div class="alcove alcove-left">
-        <div class="alcove-arch"></div>
-        <img src="images/figurines/jomon-venus.png" alt="Jōmon Venus" class="figurine figurine-venus">
-      </div>
-
-      <!-- Center stage -->
-      <div class="center-stage">
-        <!-- Background scattered figurines -->
-        <div class="background-figurines">
-          <img src="images/figurines/heart-face-dogu.png" alt="Heart-face dogū" class="bg-fig bg-fig-1">
-          <img src="images/figurines/small-seated-dogu.png" alt="Small seated dogū" class="bg-fig bg-fig-2">
-          <img src="images/figurines/wild-hair-dogu.png" alt="Wild hair dogū" class="bg-fig bg-fig-3">
-          <img src="images/figurines/tall-striped-dogu.png" alt="Tall striped dogū" class="bg-fig bg-fig-4">
-          <img src="images/figurines/seated-warrior.png" alt="Seated warrior" class="bg-fig bg-fig-5">
-          <img src="images/figurines/swirl-dogu.png" alt="Swirl dogū" class="bg-fig bg-fig-6">
-          <img src="images/figurines/thinking-dogu.png" alt="Thinking dogū" class="bg-fig bg-fig-7">
-          <img src="images/figurines/boar-vessel.png" alt="Boar vessel" class="bg-fig bg-fig-8">
-          <img src="images/figurines/mimizuku-dogu.png" alt="Mimizuku dogū" class="bg-fig bg-fig-9">
-          <img src="images/figurines/flame-vessel.png" alt="Flame vessel" class="bg-fig bg-fig-10">
-        </div>
-
-        <!-- Central alcove with main figurine -->
-        <div class="alcove alcove-center">
-          <div class="alcove-arch"></div>
-        </div>
-        <div class="pedestal">
-          <img src="images/figurines/shakoki-dogu.png" alt="Shakōki-dogū" class="figurine figurine-main">
-          <div class="pedestal-base"></div>
-        </div>
-      </div>
-
-      <!-- Right alcove -->
-      <div class="alcove alcove-right">
-        <div class="alcove-arch"></div>
-        <img src="images/figurines/tattooed-dogu.png" alt="Tattooed dogū" class="figurine figurine-tattooed">
-      </div>
-
-      <!-- Far right alcove (perspective) -->
-      <div class="alcove alcove-far-right">
-        <div class="alcove-arch"></div>
-      </div>
+  <!-- PAGE 1: Exhibition Hall -->
+  <section id="exhibition" class="page">
+    <object data="svg/page-1.svg" type="image/svg+xml" class="page-svg"></object>
+    <div class="nav-overlay">
+      <a href="#library" class="nav-link nav-fouiller">Fouiller à la bibliothèque</a>
+      <a href="#library" class="nav-link nav-decouvrir">Découvrir la salle suivante</a>
     </div>
-
-    <nav class="exhibition-nav">
-      <a href="#library" class="nav-link">Fouiller à la bibliothèque</a>
-      <a href="#collection" class="nav-link nav-link-next">Découvrir la salle suivante</a>
-    </nav>
   </section>
 
-  <!-- SECTION 2: Library / Bibliothèque -->
-  <section id="library" class="section section-library">
-    <header class="site-header">
-      <h1 class="logo">OBJCLT101</h1>
-      <span class="header-subtitle">TORTJCLBO</span>
-      <span class="header-section-id">S03</span>
-    </header>
-
-    <div class="library-layout">
-      <div class="library-left-panel">
-      <!-- Left sidebar: Timeline -->
-      <aside class="timeline-sidebar">
-        <div class="period-label">
-          <span>PRÉHISTOIRE</span>
-        </div>
-        <div class="sub-period">PÉRIODE JŌMON</div>
-
-        <div class="timeline">
-          <div class="timeline-entry"><span class="year">14000 BCE</span><span class="era">PROTO-JŌMON</span></div>
-          <div class="timeline-entry"><span class="year">13000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">12000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">11000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">10000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">9000 BCE</span><span class="era">JŌMON ARCHAÏQUE</span></div>
-          <div class="timeline-entry"><span class="year">8000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">7000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">6000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">5000 BCE</span><span class="era">JŌMON ANCIEN</span></div>
-          <div class="timeline-entry"><span class="year">4000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">3000 BCE</span><span class="era">JŌMON MOYEN</span></div>
-          <div class="timeline-entry"><span class="year">2000 BCE</span><span class="era">JŌMON RÉCENT</span></div>
-          <div class="timeline-entry"><span class="year">1000 BCE</span><span class="era">JŌMON FINAL</span></div>
-          <div class="timeline-entry"><span class="year">0 CE</span></div>
-        </div>
-      </aside>
-
-      <!-- Center: Context grid -->
-      <div class="context-grid">
-        <div class="context-item context-item-large">
-          <img src="images/context/chestnut-husk.png" alt="Châtaignes">
-          <img src="images/context/red-beans.png" alt="Haricots rouges" class="context-overlay">
-        </div>
-        <div class="context-item">
-          <img src="images/context/shiba-inu.png" alt="Shiba Inu">
-        </div>
-        <div class="context-item">
-          <img src="images/context/red-shell.png" alt="Coquillage rouge">
-        </div>
-        <div class="context-item">
-          <img src="images/context/thatched-houses.png" alt="Maisons Jōmon">
-        </div>
-        <div class="context-item">
-          <img src="images/context/jomon-pot.png" alt="Poterie Jōmon">
-        </div>
-        <div class="context-item">
-          <img src="images/context/magatama-necklace.png" alt="Collier magatama">
-        </div>
-        <div class="context-item">
-          <img src="images/context/gourd.png" alt="Gourde" style="object-fit: contain; background: var(--bg-panel-light);">
-        </div>
-      </div>
-      </div>
-
-      <!-- Right: Featured figurines -->
-      <div class="featured-figurines">
-        <div class="featured-fig">
-          <img src="images/figurines/jomon-venus.png" alt="Jōmon Venus">
-          <span class="fig-label">A</span>
-        </div>
-        <div class="featured-fig">
-          <img src="images/figurines/tattooed-dogu.png" alt="Tattooed dogū">
-          <span class="fig-label">B</span>
-        </div>
-      </div>
+  <!-- PAGE 2: Library -->
+  <section id="library" class="page">
+    <object data="svg/page-2.svg" type="image/svg+xml" class="page-svg"></object>
+    <div class="nav-overlay">
+      <a href="#exhibition" class="nav-link nav-retourner">Retourner à la salle d'exposition</a>
+      <span class="nav-link nav-precedente nav-disabled">Page précédente</span>
+      <a href="#collection" class="nav-link nav-suivante">Page suivante</a>
     </div>
-
-    <nav class="library-nav">
-      <a href="#exhibition" class="nav-link">Retourner à la salle d'exposition</a>
-      <div class="page-nav">
-        <span class="nav-link nav-disabled">Page précédente</span>
-        <a href="#collection" class="nav-link nav-link-next">Page suivante</a>
-      </div>
-    </nav>
   </section>
 
-  <!-- SECTION 3: Collection / Gallery -->
-  <section id="collection" class="section section-collection">
-    <header class="site-header">
-      <h1 class="logo">OBJCLT101</h1>
-      <span class="header-section-id">S03</span>
-    </header>
-
-    <div class="collection-layout">
-      <div class="collection-panel">
-        <aside class="timeline-sidebar timeline-sidebar-inset">
-          <div class="period-label">
-            <span>PÉRIODE<br>JOMON</span>
-          </div>
-          <div class="sub-period">motifs</div>
-          <div class="timeline">
-            <div class="timeline-entry"><span class="year">14000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">13000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">12000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">11000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">10000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">9000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">8000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">7000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">6000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">5000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">4000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">3000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">2000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">1000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">0 CE</span></div>
-          </div>
-        </aside>
-
-        <div class="collection-scatter">
-        <img src="images/figurines/tall-striped-dogu.png" alt="Tall striped dogū" class="scatter-fig" style="--x: 8%; --y: 5%; --s: 0.65;">
-        <img src="images/figurines/dark-venus.png" alt="Dark venus" class="scatter-fig" style="--x: 15%; --y: 35%; --s: 0.5;">
-        <img src="images/figurines/small-seated-dogu.png" alt="Small seated dogū" class="scatter-fig" style="--x: 25%; --y: 55%; --s: 0.45;">
-        <img src="images/figurines/swirl-dogu.png" alt="Swirl dogū" class="scatter-fig" style="--x: 20%; --y: 10%; --s: 0.55;">
-        <img src="images/figurines/wild-hair-dogu.png" alt="Wild hair dogū" class="scatter-fig" style="--x: 35%; --y: 0%; --s: 0.6;">
-        <img src="images/figurines/seated-warrior.png" alt="Seated warrior" class="scatter-fig" style="--x: 40%; --y: 30%; --s: 0.5;">
-        <img src="images/figurines/thinking-dogu.png" alt="Thinking dogū" class="scatter-fig" style="--x: 45%; --y: 55%; --s: 0.55;">
-        <img src="images/figurines/heart-face-dogu.png" alt="Heart-face dogū" class="scatter-fig" style="--x: 55%; --y: 15%; --s: 0.5;">
-        <img src="images/figurines/boar-large.png" alt="Boar" class="scatter-fig" style="--x: 50%; --y: 45%; --s: 0.65;">
-        <img src="images/figurines/mimizuku-dogu.png" alt="Mimizuku dogū" class="scatter-fig" style="--x: 65%; --y: 5%; --s: 0.5;">
-        <img src="images/figurines/flame-vessel.png" alt="Flame vessel" class="scatter-fig" style="--x: 70%; --y: 35%; --s: 0.45;">
-        <img src="images/figurines/mushroom-dogu.png" alt="Mushroom dogū" class="scatter-fig" style="--x: 78%; --y: 10%; --s: 0.45;">
-      </div>
-      </div>
+  <!-- PAGE 3: Collection -->
+  <section id="collection" class="page">
+    <object data="svg/page-3.svg" type="image/svg+xml" class="page-svg"></object>
+    <div class="nav-overlay">
+      <a href="#exhibition" class="nav-link nav-retourner">Retourner à la salle d'exposition</a>
+      <a href="#library" class="nav-link nav-precedente">Page précédente</a>
+      <a href="#detail" class="nav-link nav-suivante">Page suivante</a>
     </div>
-
-    <nav class="library-nav">
-      <a href="#exhibition" class="nav-link">Retourner à la salle d'exposition</a>
-      <div class="page-nav">
-        <a href="#library" class="nav-link">Page précédente</a>
-        <a href="#detail" class="nav-link nav-link-next">Page suivante</a>
-      </div>
-    </nav>
   </section>
 
-  <!-- SECTION 4: Detail / Focus -->
-  <section id="detail" class="section section-detail">
-    <header class="site-header">
-      <h1 class="logo">OBJCLT101</h1>
-      <span class="header-section-id">S03</span>
-    </header>
-
-    <div class="detail-layout">
-      <div class="detail-panel">
-        <aside class="timeline-sidebar timeline-sidebar-inset">
-          <div class="period-label">
-            <span>PÉRIODE<br>JOMON</span>
-          </div>
-          <div class="sub-period">rites</div>
-          <div class="timeline">
-            <div class="timeline-entry"><span class="year">14000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">13000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">12000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">11000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">10000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">9000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">8000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">7000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">6000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">5000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">4000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">3000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">2000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">1000 BCE</span></div>
-            <div class="timeline-entry"><span class="year">0 CE</span></div>
-          </div>
-        </aside>
-
-        <div class="detail-figurines">
-        <img src="images/figurines/elegant-dogu.png" alt="Elegant dogū" class="detail-fig detail-fig-left">
-        <img src="images/figurines/shakoki-dogu.png" alt="Shakōki-dogū" class="detail-fig detail-fig-center">
-        <img src="images/figurines/ornate-dogu.png" alt="Ornate dogū" class="detail-fig detail-fig-right">
-      </div>
-      </div>
+  <!-- PAGE 4: Detail -->
+  <section id="detail" class="page">
+    <object data="svg/page-4.svg" type="image/svg+xml" class="page-svg"></object>
+    <div class="nav-overlay">
+      <a href="#exhibition" class="nav-link nav-retourner">Retourner à la salle d'exposition</a>
+      <a href="#collection" class="nav-link nav-precedente">Page précédente</a>
+      <a href="#exhibition" class="nav-link nav-suivante">Page suivante</a>
     </div>
-
-    <nav class="library-nav">
-      <a href="#exhibition" class="nav-link">Retourner à la salle d'exposition</a>
-      <div class="page-nav">
-        <span class="nav-link">Page précédente</span>
-        <a href="#exhibition" class="nav-link nav-link-next">Page suivante</a>
-      </div>
-    </nav>
   </section>
 
   <script src="script.js"></script>
