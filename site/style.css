@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #8b3a3a;
+  background: #1a1a2e;
   overflow-x: hidden;
 }
 
@@ -44,8 +44,8 @@ body {
 }
 
 .nav-link:hover {
-  background: rgba(255,255,255,0.06);
-  border-radius: 3px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 4px;
 }
 
 .nav-disabled {
@@ -54,54 +54,181 @@ body {
 }
 
 /* ===================================================
-   PAGE 1: Exhibition Hall
-   Text coords from SVG analysis (viewBox 1920x1080)
+   OBJ PAGE 1: Landing — ABOUT + VISIT buttons
    =================================================== */
-
-/* "Fouiller à la bibliothèque" — center: x=44.6%, y=92.3%, w=11.9%, h=0.8% */
-#exhibition .nav-fouiller {
-  left: 43.5%;
-  top: 91.5%;
-  width: 13%;
-  height: 2.5%;
+.nav-btn-about {
+  left: 33%;
+  top: 56%;
+  width: 17%;
+  height: 5%;
 }
 
-/* "Découvrir la salle suivante" — x=80.9%, y=92.4%, w=12.4% */
-#exhibition .nav-decouvrir {
-  left: 80%;
-  top: 91.5%;
-  width: 14%;
-  height: 2.5%;
+.nav-btn-visit {
+  left: 33%;
+  top: 63%;
+  width: 17%;
+  height: 5%;
 }
 
 /* ===================================================
-   PAGES 2-4: Shared nav positions
-   "Retourner..." x=3.88%, y=93.3%, w=15.38%
-   "Page précédente" x=79.87%, y=93.4%, w=7.98%
-   "Page suivante" x=89.03%, y=93.4%, w=6.68%
+   OBJ PAGE 2: Craquer le code — VISIT button
    =================================================== */
+.nav-btn-visit-solo {
+  right: 3%;
+  top: 48%;
+  width: 6%;
+  height: 4%;
+}
 
-.nav-retourner {
+/* ===================================================
+   OBJ PAGE 3: Map — "Image objet" + "Accéder aux salles"
+   =================================================== */
+.nav-image-objet {
+  left: 8%;
+  bottom: 7%;
+  width: 12%;
+  height: 3%;
+}
+
+.nav-acceder-salles {
+  right: 8%;
+  bottom: 5%;
+  width: 10%;
+  height: 4%;
+}
+
+/* ===================================================
+   OBJ PAGE 4: Lobby — "Accéder aux salles"
+   =================================================== */
+.nav-acceder-salles-lobby {
+  left: 30%;
+  bottom: 5%;
+  width: 14%;
+  height: 4%;
+}
+
+/* ===================================================
+   OBJ PAGES 5/7: Préhistoire room views
+   Square back button (bottom-left), S'approcher (center-bottom),
+   Door right, Accéder aux salles (right)
+   =================================================== */
+.nav-back-square {
   left: 3%;
-  top: 92.5%;
-  width: 17%;
-  height: 2.5%;
+  bottom: 4%;
+  width: 5%;
+  height: 6%;
+}
+
+.nav-sapprocher {
+  left: 33%;
+  bottom: 4%;
+  width: 15%;
+  height: 4%;
+}
+
+.nav-door-right {
+  right: 3%;
+  top: 25%;
+  width: 8%;
+  height: 50%;
+}
+
+.nav-acceder-salles-right {
+  right: 5%;
+  bottom: 4%;
+  width: 12%;
+  height: 4%;
+}
+
+/* ===================================================
+   OBJ PAGE 6: Venus close-up
+   =================================================== */
+.nav-acceder-salles-center {
+  left: 33%;
+  bottom: 5%;
+  width: 14%;
+  height: 4%;
+}
+
+/* ===================================================
+   Exhibition halls: "Fouiller à la bibliothèque" + "Découvrir la salle suivante"
+   Used by obj 8,9,10,11,12 and tmln 1,9,13,17
+   =================================================== */
+.nav-fouiller {
+  left: 33%;
+  bottom: 4%;
+  width: 16%;
+  height: 4%;
+}
+
+.nav-decouvrir {
+  right: 3%;
+  bottom: 4%;
+  width: 16%;
+  height: 4%;
+}
+
+/* ===================================================
+   Library/Collection/Detail: "Retourner" + "Précédente" + "Suivante"
+   Used by tmln sub-pages
+   =================================================== */
+.nav-retourner {
+  left: 2%;
+  bottom: 2%;
+  width: 18%;
+  height: 3%;
 }
 
 .nav-precedente {
-  left: 79%;
-  top: 92.5%;
-  width: 9%;
-  height: 2.5%;
+  right: 12%;
+  bottom: 2%;
+  width: 10%;
+  height: 3%;
 }
 
 .nav-suivante {
-  left: 88.5%;
-  top: 92.5%;
-  width: 8%;
-  height: 2.5%;
+  right: 1%;
+  bottom: 2%;
+  width: 10%;
+  height: 3%;
 }
 
-section[id] {
-  scroll-margin-top: 0;
+/* ===================================================
+   OBJ PAGE 13/tmln-21: Boutique — "Accéder à la bibliothèque"
+   =================================================== */
+.nav-acceder-biblio {
+  right: 5%;
+  bottom: 5%;
+  width: 16%;
+  height: 4%;
+}
+
+/* ===================================================
+   OBJ PAGE 14: Bookshop — "Retourner à la salle d'exposition"
+   =================================================== */
+.nav-retourner-center {
+  left: 30%;
+  bottom: 8%;
+  width: 22%;
+  height: 4%;
+}
+
+/* ===================================================
+   OBJ PAGE 15: Overview map — "VISIT" button
+   =================================================== */
+.nav-btn-visit-map {
+  left: 33%;
+  top: 20%;
+  width: 6%;
+  height: 3%;
+}
+
+/* ===================================================
+   OBJ PAGE 16: Craquer le code — "QUIZZ" button
+   =================================================== */
+.nav-btn-quizz {
+  right: 8%;
+  bottom: 5%;
+  width: 10%;
+  height: 5%;
 }
