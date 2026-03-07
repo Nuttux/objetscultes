@@ -15,6 +15,11 @@
     </header>
 
     <div class="exhibition-room">
+      <!-- Far left alcove (perspective) -->
+      <div class="alcove alcove-far-left">
+        <div class="alcove-arch"></div>
+      </div>
+
       <!-- Left alcove -->
       <div class="alcove alcove-left">
         <div class="alcove-arch"></div>
@@ -52,6 +57,11 @@
         <div class="alcove-arch"></div>
         <img src="images/figurines/tattooed-dogu.png" alt="Tattooed dogū" class="figurine figurine-tattooed">
       </div>
+
+      <!-- Far right alcove (perspective) -->
+      <div class="alcove alcove-far-right">
+        <div class="alcove-arch"></div>
+      </div>
     </div>
 
     <nav class="exhibition-nav">
@@ -69,6 +79,7 @@
     </header>
 
     <div class="library-layout">
+      <div class="library-left-panel">
       <!-- Left sidebar: Timeline -->
       <aside class="timeline-sidebar">
         <div class="period-label">
@@ -117,8 +128,9 @@
           <img src="images/context/magatama-necklace.png" alt="Collier magatama">
         </div>
         <div class="context-item">
-          <img src="images/context/gourd.png" alt="Gourde">
+          <img src="images/context/gourd.png" alt="Gourde" style="object-fit: contain; background: var(--bg-panel-light);">
         </div>
+      </div>
       </div>
 
       <!-- Right: Featured figurines -->
@@ -151,32 +163,33 @@
     </header>
 
     <div class="collection-layout">
-      <aside class="timeline-sidebar">
-        <div class="period-label">
-          <span>PÉRIODE<br>JOMON</span>
-        </div>
-        <div class="sub-period">motifs</div>
-        <div class="timeline">
-          <div class="timeline-entry"><span class="year">14000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">13000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">12000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">11000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">10000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">9000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">8000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">7000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">6000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">5000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">4000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">3000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">2000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">1000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">0 CE</span></div>
-        </div>
-      </aside>
+      <div class="collection-panel">
+        <aside class="timeline-sidebar timeline-sidebar-inset">
+          <div class="period-label">
+            <span>PÉRIODE<br>JOMON</span>
+          </div>
+          <div class="sub-period">motifs</div>
+          <div class="timeline">
+            <div class="timeline-entry"><span class="year">14000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">13000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">12000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">11000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">10000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">9000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">8000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">7000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">6000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">5000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">4000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">3000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">2000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">1000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">0 CE</span></div>
+          </div>
+        </aside>
 
-      <div class="collection-scatter">
-        <img src="images/figurines/tall-striped-dogu.png" alt="Tall striped dogū" class="scatter-fig" style="--x: 5%; --y: 5%; --s: 0.7;">
+        <div class="collection-scatter">
+        <img src="images/figurines/tall-striped-dogu.png" alt="Tall striped dogū" class="scatter-fig" style="--x: 8%; --y: 5%; --s: 0.65;">
         <img src="images/figurines/dark-venus.png" alt="Dark venus" class="scatter-fig" style="--x: 15%; --y: 35%; --s: 0.5;">
         <img src="images/figurines/small-seated-dogu.png" alt="Small seated dogū" class="scatter-fig" style="--x: 25%; --y: 55%; --s: 0.45;">
         <img src="images/figurines/swirl-dogu.png" alt="Swirl dogū" class="scatter-fig" style="--x: 20%; --y: 10%; --s: 0.55;">
@@ -188,6 +201,7 @@
         <img src="images/figurines/mimizuku-dogu.png" alt="Mimizuku dogū" class="scatter-fig" style="--x: 65%; --y: 5%; --s: 0.5;">
         <img src="images/figurines/flame-vessel.png" alt="Flame vessel" class="scatter-fig" style="--x: 70%; --y: 35%; --s: 0.45;">
         <img src="images/figurines/mushroom-dogu.png" alt="Mushroom dogū" class="scatter-fig" style="--x: 78%; --y: 10%; --s: 0.45;">
+      </div>
       </div>
     </div>
 
@@ -208,42 +222,44 @@
     </header>
 
     <div class="detail-layout">
-      <aside class="timeline-sidebar">
-        <div class="period-label">
-          <span>PÉRIODE<br>JOMON</span>
-        </div>
-        <div class="sub-period">rites</div>
-        <div class="timeline">
-          <div class="timeline-entry"><span class="year">14000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">13000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">12000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">11000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">10000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">9000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">8000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">7000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">6000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">5000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">4000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">3000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">2000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">1000 BCE</span></div>
-          <div class="timeline-entry"><span class="year">0 CE</span></div>
-        </div>
-      </aside>
+      <div class="detail-panel">
+        <aside class="timeline-sidebar timeline-sidebar-inset">
+          <div class="period-label">
+            <span>PÉRIODE<br>JOMON</span>
+          </div>
+          <div class="sub-period">rites</div>
+          <div class="timeline">
+            <div class="timeline-entry"><span class="year">14000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">13000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">12000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">11000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">10000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">9000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">8000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">7000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">6000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">5000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">4000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">3000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">2000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">1000 BCE</span></div>
+            <div class="timeline-entry"><span class="year">0 CE</span></div>
+          </div>
+        </aside>
 
-      <div class="detail-figurines">
+        <div class="detail-figurines">
         <img src="images/figurines/elegant-dogu.png" alt="Elegant dogū" class="detail-fig detail-fig-left">
         <img src="images/figurines/shakoki-dogu.png" alt="Shakōki-dogū" class="detail-fig detail-fig-center">
         <img src="images/figurines/ornate-dogu.png" alt="Ornate dogū" class="detail-fig detail-fig-right">
+      </div>
       </div>
     </div>
 
     <nav class="library-nav">
       <a href="#exhibition" class="nav-link">Retourner à la salle d'exposition</a>
       <div class="page-nav">
-        <a href="#collection" class="nav-link">Page précédente</a>
-        <span class="nav-link nav-disabled">Page suivante</span>
+        <span class="nav-link">Page précédente</span>
+        <a href="#exhibition" class="nav-link nav-link-next">Page suivante</a>
       </div>
     </nav>
   </section>

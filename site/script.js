@@ -1,4 +1,4 @@
-// Smooth scroll for anchor links
+// Navigate via anchor links
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault();
@@ -8,6 +8,14 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     }
   });
 });
+
+// Prevent free scrolling — only allow navigation via links
+let isNavigating = false;
+document.addEventListener('wheel', e => {
+  if (!isNavigating) {
+    e.preventDefault();
+  }
+}, { passive: false });
 
 // Parallax-like subtle movement for background figurines on mousemove
 const bgFigs = document.querySelectorAll('.bg-fig');
@@ -27,16 +35,3 @@ if (exhibition) {
     });
   });
 }
-
-// Fade-in sections on scroll
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
-  });
-}, { threshold: 0.1 });
-
-document.querySelectorAll('.section').forEach(section => {
-  observer.observe(section);
-});
