@@ -255,9 +255,10 @@ Institutions avec des collections pertinentes et une ouverture au numerique :
 
 ### Evenements et reseaux (Tier 3 — visibilite)
 
-8. **Museum Connections** (janvier 2026) — salon ideal pour presenter OBJCLT101
+8. **SITEM** (25-26 mars 2026) + **CLIC** (24 mars 2026) — dans 2 semaines !
 9. **CLIC France** — rejoindre le reseau, participer aux rencontres annuelles
 10. **SITEM / Grand Prix Innovation Numerique** — candidater avec OBJCLT101 comme projet
+11. **Museum Connections** (probablement janvier 2027)
 
 ### Approche suggeree
 
@@ -372,4 +373,243 @@ Institutions avec des collections pertinentes et une ouverture au numerique :
 
 ---
 
-*Recherche effectuee le 7 mars 2026. Les noms et postes doivent etre verifies avant prise de contact — les nominations dans les musees nationaux changent regulierement.*
+---
+
+## 7. Liste Exhaustive des Musees en France (par categorie de pertinence)
+
+### A. Musees nationaux (41 etablissements sous tutelle du Ministere de la Culture)
+
+#### Etablissements publics
+
+| Musee | Ville | Pertinence |
+|-------|-------|------------|
+| Musee du Louvre | Paris | Haute (antiquites) |
+| Musee d'Orsay | Paris | Moyenne |
+| Musee de l'Orangerie | Paris | Faible |
+| Centre Pompidou (MNAM) | Paris | Moyenne (art contemporain) |
+| Musee du quai Branly - Jacques Chirac | Paris | Tres haute |
+| Musee des chateaux de Versailles et Trianon | Versailles | Faible |
+| Musee Picasso | Paris | Faible |
+| MuCEM | Marseille | Tres haute |
+| Musee Guimet (Arts asiatiques) | Paris | Tres haute |
+| Musee Rodin | Paris / Meudon | Faible |
+| Musee de l'histoire de l'immigration | Paris | Moyenne |
+| Musee Jean-Jacques Henner | Paris | Faible |
+| Musee Gustave Moreau | Paris | Faible |
+| Musee du chateau de Fontainebleau | Fontainebleau | Faible |
+| Musee Eugene Delacroix | Paris | Faible |
+| Musee national de la ceramique | Sevres | Haute |
+| Musee de la porcelaine Adrien Dubouche | Limoges | Haute (ceramique) |
+| Musee des monuments francais | Paris | Moyenne |
+| Musee de la musique | Paris | Faible |
+| Musee de l'ENSBA | Paris | Faible |
+
+#### Services a Competence Nationale (SCN)
+
+| Musee | Ville | Pertinence |
+|-------|-------|------------|
+| Musee du Moyen Age - Cluny | Paris | Haute |
+| Musee d'Archeologie nationale | Saint-Germain-en-Laye | Tres haute |
+| Musee de Malmaison et Bois Preau | Rueil-Malmaison | Faible |
+| Musee napoleonien | Ajaccio | Faible |
+| Musee de l'ile d'Aix | Ile d'Aix | Faible |
+| Musee du chateau de Compiegne | Compiegne | Faible |
+| Musee franco-americain de Blerancourt | Blerancourt | Faible |
+| Musee du chateau de Pau | Pau | Faible |
+| Musee Magnin | Dijon | Faible |
+| Musee Clemenceau | Mouilleron-en-Pareds | Faible |
+| Musee Fernand Leger | Biot | Faible |
+| Musee national de Vallauris | Vallauris | Moyenne (ceramique) |
+| Musee Marc Chagall | Nice | Faible |
+| Musee de Port-Royal des Champs | Magny-les-Hameaux | Faible |
+| Musee des Plans-reliefs | Paris | Faible |
+| Musee national de Prehistoire | Les Eyzies-de-Tayac | Tres haute |
+| Musee de la Renaissance - Ecouen | Ecouen | Moyenne |
+
+#### Autres tutelles
+
+| Musee | Ville | Pertinence |
+|-------|-------|------------|
+| Musee de l'Homme | Paris | Tres haute |
+| Galeries du Jardin des Plantes | Paris | Moyenne |
+
+### B. Musees municipaux Paris (reseau Paris Musees — 14 musees)
+
+| Musee | Pertinence |
+|-------|------------|
+| Musee Cernuschi (Arts de l'Asie) | Tres haute |
+| Petit Palais (Beaux-Arts) | Moyenne |
+| Musee Carnavalet (Histoire de Paris) | Moyenne |
+| Musee d'Art Moderne | Moyenne |
+| Palais Galliera (Mode) | Faible |
+| Musee Bourdelle | Faible |
+| Maison de Victor Hugo | Faible |
+| Musee de la Vie Romantique | Faible |
+| Musee Zadkine | Faible |
+| Musee Cognacq-Jay | Faible |
+| Crypte archeologique de l'Ile de la Cite | Haute |
+| Catacombes de Paris | Moyenne |
+| Maison de Balzac | Faible |
+| Memorial de la Shoah (associe) | Faible |
+
+### C. Musees d'archeologie regionaux (selection des plus importants parmi 600+)
+
+| Musee | Ville | Specialite |
+|-------|-------|------------|
+| Musee departemental Arles antique | Arles | Antiquite romaine |
+| Lugdunum - Musee et theatres gallo-romains | Lyon | Gallo-romain |
+| Musee de la Romanite | Nimes | Antiquite romaine |
+| Musee Saint-Raymond | Toulouse | Antiquite romaine |
+| Musee d'Archeologie mediterraneenne | Marseille | Mediterranee antique |
+| Musee d'Histoire de Marseille | Marseille | Pluridisciplinaire |
+| Musee Champollion | Figeac | Ecritures |
+| Musee archeologique de Strasbourg | Strasbourg | Prehistoire a Moyen Age |
+| Musee Dobree | Nantes | Archeologie, arts deco |
+| Musee d'Aquitaine | Bordeaux | Prehistoire, ethnographie |
+| Musee de Picardie | Amiens | Archeologie, beaux-arts |
+| Musee archeologique de Dijon | Dijon | Gallo-romain |
+| Musee d'art et d'archeologie du Perigord (MAAP) | Perigueux | Prehistoire |
+| Vesunna | Perigueux | Gallo-romain |
+| Musee Fenaille | Rodez | Statues-menhirs |
+| Musee de Bibracte | Saint-Leger-sous-Beuvrey | Gaulois |
+| MuseoParcAlesia | Alise-Sainte-Reine | Gaulois/romain |
+| Musee archeo. Henri Prades | Lattes | Protohistoire |
+| Narbo Via | Narbonne | Antiquite romaine |
+| Forum antique de Bavay | Bavay | Gallo-romain |
+| Arkeos | Douai | Archeologie |
+| ARCHEA | Louvres | Archeologie |
+| Musee gallo-romain de Saint-Romain-en-Gal | Saint-Romain-en-Gal | Gallo-romain |
+| Musee Bargoin | Clermont-Ferrand | Archeologie |
+| Musee du Berry | Bourges | Archeologie |
+| Musee du Pays Chatillonnais - Tresor de Vix | Chatillon-sur-Seine | Age du fer |
+| Musee d'Unterlinden | Colmar | Pluridisciplinaire |
+| Musee Saint-Remi | Reims | Archeologie, histoire |
+| Musee Sainte-Croix | Poitiers | Archeologie |
+| Musee d'Argentomagus | Saint-Marcel | Gallo-romain |
+| Musee archeologique de Jublains | Jublains | Gallo-romain |
+| Parc archeologique europeen de Bliesbruck | Bliesbruck | Gallo-romain |
+| Cassinomagus | Chassenon | Gallo-romain |
+| Musee Joseph Dechelette | Roanne | Archeologie |
+| Site et musee d'Ensérune | Nissan-lez-Enserune | Protohistoire |
+| Ambrussum | Villetelle | Gallo-romain |
+| Pont du Gard (site) | Vers-Pont-du-Gard | Romain |
+| Musee de la Cour d'Or | Metz | Gallo-romain, medieval |
+| Musee Rolin | Autun | Gallo-romain |
+| Musee de Vieux-la-Romaine | Vieux | Gallo-romain |
+| Musee et site de Nice-Cemenelum | Nice | Romain |
+| Villa Kerylos | Beaulieu-sur-Mer | Grece antique |
+| Site archeologique d'Olbia | Hyeres | Grec/romain |
+| Site de Glanum | Saint-Remy-de-Provence | Grec/romain |
+
+### D. Musees d'ethnographie et cultures du monde (hors Paris)
+
+| Musee | Ville | Specialite |
+|-------|-------|------------|
+| Musee des Arts asiatiques | Nice | Arts asiatiques |
+| Musee d'ethnographie de l'universite | Bordeaux | Cultures extra-europeennes |
+| Musee d'Arts africains, oceaniens et amerindiens (MAAOA) | Marseille | Arts premiers |
+| Museum d'histoire naturelle et d'ethnographie | Colmar | Ethnographie |
+| Musee Georges Labit | Toulouse | Arts asiatiques, Egypte |
+| Musee des explorations du monde | Cannes | Cultures du monde |
+| Musee des Ameriques | Auch | Ameriques precolombiennes |
+| Musee du Pays de Luchon | Bagneres-de-Luchon | Ethnographie pyrenees |
+| Musee Savoisien | Chambery | Ethnographie alpine |
+| Musee Dauphinois | Grenoble | Ethnographie alpine |
+| Musee de Bretagne | Rennes | Ethnographie bretonne |
+
+### E. Musees de beaux-arts avec collections d'antiquites
+
+| Musee | Ville |
+|-------|-------|
+| Musee des Beaux-Arts | Lyon |
+| Musee des Beaux-Arts et d'Archeologie | Besancon |
+| Musee Granet | Aix-en-Provence |
+| Musee Calvet | Avignon |
+| Musee des Beaux-Arts | Lille |
+| Musee des Beaux-Arts | Rouen |
+| Musee des Beaux-Arts | Dijon |
+| Musee Ingres-Bourdelle | Montauban |
+| Musee des Beaux-Arts | Rennes |
+| Musee des Beaux-Arts | Bordeaux |
+
+### F. Autres institutions pertinentes
+
+| Institution | Ville | Pourquoi |
+|-------------|-------|----------|
+| Institut du Monde Arabe | Paris | Civilisations, expositions immersives |
+| Cite de l'Architecture et du Patrimoine | Paris | Patrimoine, museographie |
+| Musee des Arts Decoratifs (MAD) | Paris | Design, arts appliques |
+| Musee des Confluences | Lyon | Sciences et societes |
+| Louvre-Lens | Lens | Antenne du Louvre, region |
+| Centre Pompidou-Metz | Metz | Art contemporain, region |
+| La Piscine | Roubaix | Arts, arts appliques |
+| Musee des Beaux-Arts de la Ville de Paris (Petit Palais) | Paris | Antiquites |
+| Le Plateau FRAC Ile-de-France | Paris | Art contemporain |
+| Micro-Folies (reseau national) | 300+ sites en France | Musees numeriques itinerants |
+
+---
+
+## 8. Offres d'Emploi et Appels d'Offres Actifs (mars 2026)
+
+### Offres d'emploi pertinentes
+
+#### Sur le reseau CLIC France (10 offres en cours au 4 mars 2026)
+
+Consulter : [club-innovation-culture.fr/offres-emplois-patrimoine-innovations](https://www.club-innovation-culture.fr/offres-emplois-patrimoine-innovations/)
+
+Les offres incluent des postes en institutions culturelles et entreprises du secteur numerique/innovation. Nouvelles offres publiables gratuitement via redaction@club-innovation-culture.fr.
+
+#### Sur Paris Musees (24 offres en cours)
+
+Consulter : [parismusees.paris.fr/fr/liste-des-offres](https://www.parismusees.paris.fr/fr/liste-des-offres)
+
+Postes pertinents reperes :
+- **Adjoint.e a la cheffe du service des expositions** — Direction des Expositions et Publications — Date limite : 19 avril 2026
+- **Assistant.e d'exposition au Palais Galliera** — Date limite : 30 avril 2026
+
+#### Sur Choisir le Service Public
+
+Consulter : [choisirleservicepublic.gouv.fr](https://choisirleservicepublic.gouv.fr)
+
+Postes reperes (certains peuvent avoir expire) :
+- **Responsable de projets numeriques** — Musee Carnavalet, Paris
+- **Charge de production museographe (CDD)** — Centre des Monuments Nationaux, Paris
+- **Charge.e de numerisation des collections** — Paris
+- **Charge d'expositions** — Saint-Etienne Metropole
+
+#### Sur le Louvre
+
+Consulter : [louvre.fr/offres-d-emploi](https://www.louvre.fr/offres-d-emploi)
+
+#### Sur Grand Palais Immersif
+
+Candidatures spontanees acceptees : [grandpalais-immersif.fr/emplois-et-stages](https://grandpalais-immersif.fr/emplois-et-stages)
+
+#### Plateformes de recherche specialisees
+
+| Plateforme | URL | Specialite |
+|------------|-----|------------|
+| ProfilCulture | [profilculture.com](https://www.profilculture.com/annonce/metier/emploi-architecture-decoration) | Scenographie, design, patrimoine |
+| Indeed (scenographie musee) | [indeed.fr](https://fr.indeed.com/q-scenographie-mus%C3%A9e-emplois.html) | Toutes offres |
+| Jooble (exposition scenographe) | [jooble.org](https://fr.jooble.org/emploi-exposition-sc%C3%A9nographe) | Toutes offres |
+| LinkedIn (scenographe) | [linkedin.com/jobs](https://fr.linkedin.com/jobs/sc%C3%A9nographe-emplois) | 441 offres scenographe en France |
+| Emploi Public | [emploipublic.fr](https://www.emploipublic.fr/offre-emploi/offre-emploi-art-etablissements-patrimoniaux-et-culturels-olp-57) | Fonction publique culturelle |
+
+### Appels d'offres publics (marches de scenographie)
+
+**49 appels d'offres en cours** pour "scenographie exposition" sur [francemarches.com](https://www.francemarches.com/appels-offre/scenographie-exposition)
+
+**89 appels d'offres en cours** pour "scenographie" au sens large sur [francemarches.com](https://www.francemarches.com/appels-offre/scenographie)
+
+Projets reperes :
+- **Musee Guimet** — Scenographie, graphisme, eclairage et multimedia pour l'exposition temporaire "Silla: l'or et le sacre" (20 mai - 31 aout 2026)
+- **Archives du monde du travail** — Redesign de l'exposition permanente (graphisme, scenographie, production)
+- **Musee Camille Claudel** — Eco-conception et realisation de scenographie pour exposition temporaire (27 juin - 8 novembre 2026)
+
+Consulter aussi :
+- [sitem.fr/appeloffres](https://www.sitem.fr/appeloffres/) — Appels d'offres relayés par le SITEM
+- [fournisseursdesmusees.com](https://www.fournisseursdesmusees.com/v2/consulter-les-appels-doffres/) — Annuaire des fournisseurs des musees
+
+---
+
+*Recherche effectuee les 7-9 mars 2026. Les noms, postes et offres doivent etre verifies avant prise de contact — les nominations dans les musees nationaux changent regulierement et les offres d'emploi expirent.*
